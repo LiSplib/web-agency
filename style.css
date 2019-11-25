@@ -1,0 +1,255 @@
+h1, h2, h3, h4
+{
+	color: #444;
+}
+
+h1
+{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+}
+
+.jumbotron{
+    width: 100vw;
+    height: 100vh;
+	background: url(img/external-content.duckduckgo.com.jpg) fixed;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+	/* display: flex; */
+	margin-bottom: 5rem !important;
+}
+
+.jumbotron h2{
+	text-align: center;
+}
+
+h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button-1
+{
+	display: block;
+	width: 120px;
+	height: 50px;
+	background: #02b8dd;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 30vh;
+	margin-left: 65vw;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.button-1:hover
+{
+    background: #39a4cf;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper
+{
+	width: 100vw;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.orange
+{
+	color: #ff7a00;
+}
+
+.clear
+{
+	clear: both;
+}
+
+#possibilities
+{
+	background-color: #efefef;
+	padding: 60px 0;
+	display: flex;
+	margin-bottom: 5rem;
+}
+
+#possibilities article
+{
+	width: 460px;
+	height: 270px;
+	float: left;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-right: 30px;
+	overflow: hidden;
+}
+
+.overlay
+{
+	background: rgba(228, 224, 224, 0.671);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: all 0.8s;
+}
+
+article h4
+{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#possibilities p
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.button-2
+{
+	color: #fff;
+	background-color: #02b8dd;
+	padding : 6px 20px;
+	border-radius: 3px;
+}
+
+.button-2:hover
+{
+	background-color: #39a4cf;
+	color: #fff;
+	text-decoration: none;
+}
+
+.firstBox{
+	background-image: url(img/20494258388_d26dccd5ed_o.jpg);
+	background-size: cover;
+}
+
+.secondBox{
+	background-image: url(img/scegliere-web-agency.jpg);
+	background-size: cover;
+}
+
+.overlay:hover{
+	width: 100%;
+	background: rgba(71, 152, 245, 0.918);
+	border-radius: 10px 10px 10px 10px;
+	color: #fff;
+}
+
+.overlay:hover h4{
+	color: #fff;
+	font-size: 1.8rem;
+}
+
+.overlay:hover p{
+	font-size: 1.5rem;
+}
+
+#about, #portfolio{
+	background-color: #efefef;
+	padding: 60px 0;
+	margin-bottom: 5rem;
+}
+
+.cards{
+	width: 450px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cards h4{
+	border-bottom: 1px solid #444;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.marion{
+	background-image: url(img/image0.png),
+	url(img/girly.jpg);
+	background-size: 50%, cover;
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+
+.jay-cy{
+	background-image: url(img/jc.png),
+	url(img/Star.jpg);
+	background-size: 50%, cover;
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+
+.overlay2
+{
+	background: rgba(228, 224, 224, 0.671);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: all 0.8s;
+}
+
+.overlay2:hover{
+	width: 100%;
+	background: rgba(228, 224, 224, 0.671);
+	border-radius: 10px;
+	color: #444;
+}
+
+.overlay2:hover h4{
+	color: #444 !important;
+	font-size: 1.8rem;
+}
+
+.overlay2:hover p{
+	font-size: 1.5rem;
+}
+
+#portfolio img{
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 10px;
+}
+
+.demo{
+	flex-flow: row wrap;
+	flex: 1;
+}
+
+#contact{
+	background-color: #efefef;
+	padding: 60px 0;
+	margin-bottom: 5rem;
+}
+
+.contactBox{
+	background: url(img/contactBis.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	height: 480px;
+}
+
