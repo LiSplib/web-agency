@@ -9,17 +9,18 @@ h1
 	font-size: 45px;
 }
 
-.jumbotron{
+.banner{
     width: 100vw;
-    height: 100vh;
-	background: url(img/external-content.duckduckgo.com.jpg) fixed;
+	/* height: 100vh; */
+	margin: 0;
+	/* background: url(img/external-content.duckduckgo.com.jpg) fixed;
     background-size: auto auto;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 	/* display: flex; */
-	margin-bottom: 5rem !important;
+	/* margin-bottom: 5rem !important; */
 }
 
-.jumbotron h2{
+.banner h2{
 	text-align: center;
 }
 
@@ -38,7 +39,7 @@ h2
 	background: #02b8dd;
 	color: #fff;
 	font-size: 20px;
-	margin-top: 30vh;
+	/* margin-top: 30vh; */
 	margin-left: 65vw;
 	line-height: 50px;
 	text-align: center;

@@ -37,14 +37,13 @@
                 </ul>
             </div>
         </nav>
-        <div class="jumbotron">
-            <div class="wrapper">
-                <h2 class="display-4">Welcome to your future World<span class="orange">!</span></h2>
-                <a class="button-1" href="#possibilities" role="button">Nos Services</a>
-            </div>
+        <div class="banner">
+            <h2 class="display-4">Welcome to your future World<span class="orange">!</span></h2>
+            <img class="img-fluid img-center w-100" src="img/external-content.duckduckgo.com.jpg">
+            <a class="button-1" href="#possibilities" role="button">Nos Services</a>
         </div>
         <section id="possibilities">
-            <div class="wrapper d-flex">
+            <div class="wrapper row">
                 <h1 id="services" class="mt-n5">SERVICES</h1>
                 <article class="firstBox">
                     <div class="overlay">
@@ -76,10 +75,10 @@
         </section>
 
         <section id="portfolio">
-            <div class="wrapper d-flex">
+            <div class="wrapper">
                 <h1 class="mt-n5">PORTFOLIO</h1>
-                <div class="demo d-flex w-100">
-                    <div class="photoBox">
+                <div class="demo row">
+                    <div class="photoBox col-xl-4">
                         <a href="https://lacasadibino.000webhostapp.com/index.amp.html" type="button" data-toggle="modal" data-target="#exampleModal"><img src="img/lacasa.png"></a>
                     </div>
                     <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
@@ -102,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photoBox">
+                    <div class="photoBox col-xl-4">
                         <a href="https://lisplib.github.io/simpsons/" type="button" data-toggle="modal" data-target="#Modal1"><img src="img/simpson.png"></a>
                     </div>
                     <div class="modal" id="Modal1" tabindex="-1" role="dialog">
@@ -125,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photoBox">
+                    <div class="photoBox col-lg-4">
                         <a href="https://lisplib.github.io/charte-dwwm-v2/" type="button" data-toggle="modal" data-target="#Modal2"><img src="img/charte.png"></a>
                     </div>
                     <div class="modal" id="Modal2" tabindex="-1" role="dialog">
@@ -155,7 +154,7 @@
         <section id="about">
             <div class="wrapper">
                 <h1 class="mt-n5">LA TEAM</h1>
-                <div class="d-flex justify-content-center w-100">
+                <div class="col-12">
                     <div class="cards marion">
                         <div class="overlay2 mafarifironfon">
                             <h4>Marion</h4>
@@ -178,13 +177,13 @@
                 <h1 class="mt-n5">CONTACT</h1>
                 <div class="container contactBox">
                     <form action="action_page.php">
-                      <label for="fname">Nom Prénom</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Nom Prénom..">
-                      <label for="email">Nom</label>
-                      <input type="email" id="email" name="email" placeholder="Email..">
-                      <label for="subject">Votre message</label>
-                      <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
-                      <input type="submit" value="Envoyer">
+                        <label for="fname">Nom, Prénom</label>
+                        <input type="text" id="name" name="firstname" placeholder="Nom, Prénom..">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email..">
+                        <label for="subject">Votre message</label>
+                        <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
+                        <input type="submit" value="Envoyer">
                     </form>
                 </div>  
             </div>
