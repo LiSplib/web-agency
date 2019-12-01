@@ -263,23 +263,27 @@ article h4
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 10px;
-	width: 100%;
+	width: calc(100% - 10px);
 	height: 480px;
+	padding: 0 10px;
 }
 
 .contactBox form{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .button-3
 {
 	color: #fff;
 	background-color: #02b8dd;
+	border: 1px solid #02b8dd;
 	padding : 6px 20px;
 	border-radius: 3px;
 	width: 120px;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 .button-3:hover
@@ -289,6 +293,13 @@ article h4
 	text-decoration: none;
 }
 
+.inputBox{
+	width: calc(60vw + 10vh + 0.5vmin);
+}
+
+footer{
+	padding: 6px 20px;
+}
 @media screen and (max-width: 576px){
 	.welcome{
 		font-size: 1.5rem;
@@ -306,6 +317,11 @@ article h4
 	#portfolio img{
 		width: calc(100vw - 30px);
 	}
+
+	.inputBox{
+		width: calc(100vw - 60px);
+		/* min-width: 400px; */
+	}
 }
 
 @media screen and (max-width: 992px){
@@ -317,4 +333,8 @@ article h4
 		left: calc(75vw - 4px);
 		top: 134px;
 	}
+
+	/* .inputBox{
+		width: 50%;
+	} */
 }
